@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhais sahoo">
+    <title>my portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+        font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        margin: 0;
+        padding:0;
+        color: rgb(150 161 192);
+        background-color: rgb(22 26 44);
+        }
+        div{
+            background-color:white;
+        }
+        h2{
+            height: 40px;
+            background-color: #333;
+            color: white;
+            border-left: 3px solid red;  
+        }
+        #img{
+            height:440px; 
+            width:350px;
+            float: right;
+            background-color: rgb(22 26 44);
+            border-radius:50%;
+            margin-right: 70px;
+        }
+        #dd11{
+            background-color: rgb(22 26 44);
+            height: 350px;
+            width: 50%;
+            margin-left: 70px;
+            margin-top: 70px;
+            text-align: justify;   
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%; 
+          }
+          li {
+            float: left;
+          }
+          li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          li a:hover {
+            background-color: #111;
+          }
+          .active {
+            background-color: red;
+          }
+          footer {
+            background-color: #333;
+            color:  rgb(150 161 192);
+            text-align: center;
+            padding: 20px;
+            
+        }
+        a button{
+          border: none;
+          margin-left: 70px;
+          margin-bottom: 100px;
+          font-size: 17px;
+          text-shadow: 2px 1px 5px red ;
+          background-color:  rgb(22 26 44);
+          color:rgb(150 161 192);
+        }
+        span{
+          float: right;
+          margin-top: 20px;
+          margin-right: 190px;
+        }
+        button{
+          border-radius: 50%;
+          border: 1px solid #333;
+          background-color: #111;
+          color: chocolate;
+        }
+        button:hover{
+          color:rgb(150 161 192);
+          border: 1px solid white;
+          border-radius: 20px;
+        }
+        img:hover{
+        border-radius: 100%;
+        background-color:rgb(150 161 192);
+        }
+    </style> 
+</head>
+<body>
+    <header style=" margin-top: 50px;" >
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="creativity.html">Creativity</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav><hr>
+        <h2>My portfolio</h2>
+    </header>
+    <hr>
+    <main>
+        <article>
+            
+<img src="Screenshot_2023-06-25-22-40-36-88_965bbf4d18d205f782c6b8409c5773a4.jpg" id="img" alt="my photo"><br>
+
+            <div id="dd11"> 
+                <p>Hello! I'm <b style="font-size: 20px;">Subhasis</b>
+                    <br><br>An aspiring web developer on a passionate journey to master the art of crafting digital experiences. I believe that every line of code is a step toward turning creativity into reality. 
+                    <br><br>My exploration into the world of web development began when i started learning about computer programming and coding, and since then, I've been immersing myself in the captivating realm of coding, design, and problem-solving.
+                    <br><br>While my journey may still be in its early stages, I'm driven by an unquenchable thirst for knowledge and a determination to become a proficient developer. I enjoy the process of tackling complex problems, breaking them down into manageable pieces, and celebrating small victories along the way.
+                </p>
+             </div>
+        </article>
+    </main>
+    <a href="https://docs.google.com/document/d/1UdM6Y6nOT4ZuM5Bz45Zj30eFj2sx7ahi/edit?usp=drivesdk&ouid=117062461590063678397&rtpof=true&sd=true"><button>My Resume</button></a>
+   
+    <span id="butn">
+      <button onclick="document.getElementById('img').src='Screenshot_2022-12-18-16-22-38-23_99c04817c0de5652397fc8b56c3b3817.jpg'">1</button>
+      <button onclick="document.getElementById('img').src='me.jpg'">2</button>
+      <button onclick="document.getElementById('img').src='munu.jpg'">3</button>
+      <button onclick="document.getElementById('img').src='Screenshot_2023-06-25-22-40-36-88_965bbf4d18d205f782c6b8409c5773a4.jpg'">*</button>
+   
+    </span>
+     <hr>
+<footer>
+    <p>&copy; 2023 subhasis</p>
+    <p>Contact: subhasissahoo9040@gmail.com</p>
+    <table id="tbl">
+        <tr>
+          <a href="mailto:subhasissahoo9040@gmail.com"target="_main"><img class="im" src="gmail.png"height="25" width="25" title="gmail"></a>
+        </tr>
+        <tr>
+          <a href="https://www.linkedin.com/in/subhasis-sahoo-08a941286"target="_main"><img class="im" src="linkedin.png"height="25" width="25" title="linkedin"></a>
+        </tr>
+        <tr>
+          <a href="https://instagram.com/subhasis_munu?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"target="_main"><img class="im" src="instagram.png"height="25" width="25" title="instagram"></a>
+        </tr>
+        <tr>
+          <a href="tel:9827128965"><img class="im" src="call.png" alt="call me" height="25" width="25" title="phone"></a>
+        </tr>
+        <tr>
+        <a href="https://www.facebook.com/subhasis.sahoo.33483?mibextid=2JQ9oc"target="_main"><img  class="im" src="facebook.png"height="25" width="25" title="facebook"></a>
+        </tr>
+        <tr>
+          <a href="https://twitter.com/Subhasis_munu?s=08"target="_main"><img  class="im" src="twitter.png"height="25" width="25" title="twitter"></a>
+        </tr>
+        <tr>
+          <a href="https://t.me/Subhasis_munu"><img class="im" src="teligram.png"target="_main"height="25" width="25" title="teligram"></a>
+        </tr>
+      </table>
+</footer>
+<div height="100%"></div>
+</body>
+</html>
